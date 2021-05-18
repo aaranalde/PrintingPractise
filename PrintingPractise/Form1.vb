@@ -97,7 +97,7 @@ Public Class Form1
         Next
 
         Printer.Print("------------------------------------")
-        arrWidth = {130, 120} 'array for column width | array untuk lebar kolom
+        arrWidth = {130, 120} 'array for column width
         arrFormat = {c.MidLeft, c.MidRight} 'array alignment 
 
         Printer.Print("Total;" & dblSubtotal, arrWidth, arrFormat)
